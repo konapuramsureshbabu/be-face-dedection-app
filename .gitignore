@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*
+.venv
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Build and distribution files
+/dist/
+/build/
+*.egg-info/
+*.egg
+*.whl
+
+# Logs and debug files
+*.log
+logs/
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# FastAPI-specific
+# (Remove if not applicable)
+*.pyc
+*.pyo
+.python-version
+
+# SQLite temp files
+*.db-journal
+*-journal
